@@ -11,7 +11,7 @@
 # Use this script on root of kernel directory
 
 SECONDS=0 # builtin bash timer
-ZIPNAME="Ghost-Inside-V2.0-$(TZ=Asia/Jakarta date +"%Y%m%d-%H%M").zip"
+ZIPNAME="Ghost-Inside-KSU-V2.0-$(TZ=Asia/Jakarta date +"%Y%m%d-%H%M").zip"
 TC_DIR="/workspace/toolchain/r487747"
 GCC_64_DIR="/workspace/toolchain/aarch64-linux-android-4.9"
 GCC_32_DIR="/workspace/toolchain/arm-linux-androideabi-4.9"
