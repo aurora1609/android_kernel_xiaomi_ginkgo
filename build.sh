@@ -19,8 +19,8 @@ AK3_DIR="/workspace/android/AnyKernel3"
 DEFCONFIG="vendor/ginkgo-perf_defconfig"
 
 export PATH="$TC_DIR/bin:$PATH"
-export KBUILD_BUILD_USER="EdwiinKJ"
-export KBUILD_BUILD_HOST="RastaMod69"
+export KBUILD_BUILD_USER="Panda"
+export KBUILD_BUILD_HOST="Buncit"
 export KBUILD_BUILD_VERSION="1"
 
 if ! [ -d "${TC_DIR}" ]; then
