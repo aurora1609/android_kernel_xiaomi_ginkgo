@@ -11,7 +11,7 @@
 # Use this script on root of kernel directory
 
 SECONDS=0 # builtin bash timer
-ZIPNAME="RyzenKernel-AOSP-Ginkgo-$(TZ=Asia/Jakarta date +"%Y%m%d-%H%M").zip"
+ZIPNAME="Ghost-Inside-V2.0-$(TZ=Asia/Jakarta date +"%Y%m%d-%H%M").zip"
 TC_DIR="/workspace/toolchain/r487747"
 GCC_64_DIR="/workspace/toolchain/aarch64-linux-android-4.9"
 GCC_32_DIR="/workspace/toolchain/arm-linux-androideabi-4.9"
@@ -67,7 +67,7 @@ if [ -f "out/arch/arm64/boot/Image.gz-dtb" ] && [ -f "out/arch/arm64/boot/dtbo.i
 echo -e "\nKernel compiled succesfully! Zipping up...\n"
 if [ -d "$AK3_DIR" ]; then
 cp -r $AK3_DIR AnyKernel3
-elif ! git clone -q https://github.com/kutemeikito/AnyKernel3; then
+elif ! git clone -q https://github.com/aurora1609/AnyKernel3.git; then
 echo -e "\nAnyKernel3 repo not found locally and cloning failed! Aborting..."
 exit 1
 fi
